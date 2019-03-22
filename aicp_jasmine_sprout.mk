@@ -25,17 +25,17 @@
 $(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 
 # Inherit from Havoc custom product configuration
-$(call inherit-product, vendor/havoc/config/common.mk)
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 TARGET_VENDOR_PRODUCT_NAME := jasmine_sprout
 
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.havoc.maintainer=rcstar6696
+	DEVICE_MAINTAINERS="Nebrassy"
 
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PLATFORM := SDM660
-PRODUCT_NAME := havoc_jasmine_sprout
+PRODUCT_NAME := aicp_jasmine_sprout
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MODEL := MI A2
