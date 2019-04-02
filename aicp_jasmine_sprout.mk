@@ -24,7 +24,7 @@
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 
-# Inherit from Havoc custom product configuration
+# Inherit from AICP custom product configuration
 $(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 TARGET_VENDOR_PRODUCT_NAME := jasmine_sprout
