@@ -1,0 +1,2 @@
+# signal strength indicator fix
+88997/1 http://gerrit.aicp-rom.com frameworks/base
