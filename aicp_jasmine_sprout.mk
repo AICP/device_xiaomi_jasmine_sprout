@@ -39,3 +39,7 @@ PRODUCT_PLATFORM := SDM660
 PRODUCT_NAME := aicp_jasmine_sprout
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MODEL := Mi A2
+
+
+WITH_SU := false
+

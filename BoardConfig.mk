@@ -57,3 +57,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_jasmine_sprout
 
 # WLAN MAC
 WLAN_MAC_SYMLINK := true
+
+#TWRP
+WITH_TWRP := true
+
