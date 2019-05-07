@@ -28,6 +28,10 @@ LOCAL_SHARED_LIBRARIES := liblog libz
 LOCAL_MODULE := libgptutils
 LOCAL_MODULE_OWNER := qti
 LOCAL_CFLAGS := $(gpt_utils_common_cflags)
+LOCAL_POST_INSTALL_CMD := \
+    $(hide) mkdir -p $(TARGET_RECOVERY_ROOT_OUT)/vendor/lib64/hw && \
+	cp $(OUT_DIR)/target/product/jasmine_sprout/vendor/lib64/hw/bootctrl.sdm660.so $(TARGET_RECOVERY_ROOT_OUT)/vendor/lib64/hw/bootctrl.sdm660.so && \
+    cp $(OUT_DIR)/target/product/jasmine_sprout/vendor/lib64/libgptutils.so $(TARGET_RECOVERY_ROOT_OUT)/vendor/lib64/libgptutils.so
 include $(BUILD_STATIC_LIBRARY)
 
 include $(CLEAR_VARS)
