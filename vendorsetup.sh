@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The Xiaomi-SDM660 Project
+# Copyright (C) 2018 CarbonROM
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,23 +20,10 @@
 # included in a build is to use PRODUCT_PACKAGES in a product
 # definition file).
 #
-#TWRP
-WITH_TWRP := true
-# Inherit device configuration
-$(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 
-# Inherit from AICP custom product configuration
-$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
-
-TARGET_VENDOR_PRODUCT_NAME := jasmine_sprout
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="Nebrassy"
-
-# Device identifier
-PRODUCT_BRAND := xiaomi
-PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_PLATFORM := SDM660
-PRODUCT_NAME := aicp_jasmine_sprout
-PRODUCT_DEVICE := jasmine_sprout
-PRODUCT_MODEL := Mi A2
+ add_lunch_combo aicp_jasmine_sprout-userdebug
+if [ ! -f $(get_build_var TOP)/bootable/recovery/twrp.cpp ] 
+then 
+rm -rf $(get_build_var TOP)/bootable/recovery
+git clone https://github.com/omnirom/android_bootable_recovery.git $(get_build_var TOP)/bootable/recovery 
+fi
