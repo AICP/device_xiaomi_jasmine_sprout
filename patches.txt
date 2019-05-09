@@ -1,0 +1,9 @@
+#twrp fixes
+32648/3 https://gerrit.omnirom.org bootable/recovery
+32819/5 https://gerrit.omnirom.org bootable/recovery
+32957/4 https://gerrit.omnirom.org bootable/recovery
+33999/1 https://gerrit.omnirom.org bootable/recovery
+34000/1 https://gerrit.omnirom.org bootable/recovery
+34001/1 https://gerrit.omnirom.org bootable/recovery
+34002/1 https://gerrit.omnirom.org bootable/recovery
+34003/1 https://gerrit.omnirom.org bootable/recovery
