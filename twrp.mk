@@ -17,8 +17,10 @@ TW_INCLUDE_NTFS_3G := true
 RECOVERY_SDCARD_ON_DATA := true
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
-TARGET_RECOVERY_DEVICE_MODULES += android.hardware.boot@1.0
+TARGET_RECOVERY_DEVICE_MODULES += android.hardware.boot@1.0 bootctrl.sdm660 ligptutils
 TW_RECOVERY_ADDITIONAL_RELINK_FILES := ${OUT_DIR}/target/product/jasmine_sprout/system/lib64/android.hardware.boot@1.0.so
+TW_RECOVERY_ADDITIONAL_RELINK_FILES += ${OUT_DIR}/target/product/jasmine_sprout/vendor/lib64/libgptutils.so
+TW_RECOVERY_ADDITIONAL_RELINK_FILES += ${OUT_DIR}/target/product/jasmine_sprout/vendor/lib64/hw/bootctrl.sdm660.so
 TW_SCREEN_BLANK_ON_BOOT := true
 
 
