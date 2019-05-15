@@ -7,3 +7,4 @@
 34001/1 https://gerrit.omnirom.org bootable/recovery
 34002/1 https://gerrit.omnirom.org bootable/recovery
 34003/1 https://gerrit.omnirom.org bootable/recovery
+91184/1 http://gerrit.aicp-rom.com system/update_engine
