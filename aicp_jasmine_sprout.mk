@@ -32,8 +32,6 @@ $(call inherit-product, device/xiaomi/jasmine_sprout/device.mk)
 # Inherit from AICP custom product configuration
 $(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
-TARGET_VENDOR_PRODUCT_NAME := jasmine_sprout
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DEVICE_MAINTAINERS="Nebrassy"
 
@@ -44,3 +42,9 @@ PRODUCT_PLATFORM := SDM660
 PRODUCT_NAME := aicp_jasmine_sprout
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MODEL := Mi A2
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_DEVICE="jasmine_sprout" \
+    PRODUCT_NAME="jasmine"
+
+TARGET_VENDOR_PRODUCT_NAME := jasmine
