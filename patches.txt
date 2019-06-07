@@ -1,10 +1,11 @@
 #twrp fixes
-32648/3 https://gerrit.omnirom.org bootable/recovery
-32819/5 https://gerrit.omnirom.org bootable/recovery
-32957/4 https://gerrit.omnirom.org bootable/recovery
-33999/1 https://gerrit.omnirom.org bootable/recovery
-34000/1 https://gerrit.omnirom.org bootable/recovery
-34001/1 https://gerrit.omnirom.org bootable/recovery
-34002/1 https://gerrit.omnirom.org bootable/recovery
-34003/1 https://gerrit.omnirom.org bootable/recovery
-91184/1 http://gerrit.aicp-rom.com system/update_engine
+32648/4 https://gerrit.omnirom.org bootable/recovery
+32819/6 https://gerrit.omnirom.org bootable/recovery
+32957/5 https://gerrit.omnirom.org bootable/recovery
+33999/2 https://gerrit.omnirom.org bootable/recovery
+34000/2 https://gerrit.omnirom.org bootable/recovery
+34001/2 https://gerrit.omnirom.org bootable/recovery
+34002/2 https://gerrit.omnirom.org bootable/recovery
+34083/1 https://gerrit.omnirom.org bootable/recovery
+
+91184/2 http://gerrit.aicp-rom.com system/update_engine
