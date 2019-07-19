@@ -21,6 +21,7 @@ TARGET_RECOVERY_DEVICE_MODULES += android.hardware.boot@1.0 bootctrl.sdm660 ligp
 TW_RECOVERY_ADDITIONAL_RELINK_FILES := ${OUT_DIR}/target/product/jasmine_sprout/system/lib64/android.hardware.boot@1.0.so
 TW_RECOVERY_ADDITIONAL_RELINK_FILES += ${OUT_DIR}/target/product/jasmine_sprout/vendor/lib64/libgptutils.so
 TW_RECOVERY_ADDITIONAL_RELINK_FILES += ${OUT_DIR}/target/product/jasmine_sprout/vendor/lib64/hw/bootctrl.sdm660.so
+TW_RECOVERY_ADDITIONAL_RELINK_FILES += ${OUT_DIR}/target/product/jasmine_sprout/vendor/bin/hw/android.haredware.boot@1.0-service
 TW_SCREEN_BLANK_ON_BOOT := true
 
 
