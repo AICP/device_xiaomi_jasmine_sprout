@@ -1,2 +1,0 @@
-#twrp fixes
-91184/2 http://gerrit.aicp-rom.com system/update_engine
