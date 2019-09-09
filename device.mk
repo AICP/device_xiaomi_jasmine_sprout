@@ -102,10 +102,12 @@ PRODUCT_COPY_FILES += \
 
 # Update engine
 PRODUCT_PACKAGES += \
-	brillo_update_payload \
 	update_engine \
 	update_engine_sideload \
 	update_verifier
+
+PRODUCT_HOST_PACKAGES += \
+        brillo_update_payload
 
 PRODUCT_PACKAGES_DEBUG += \
 	update_engine_client
