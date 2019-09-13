@@ -51,6 +51,7 @@ VENDOR_SECURITY_PATCH := 2018-06-05
 # WLAN MAC
 WLAN_MAC_SYMLINK := true
 
+-include device/xiaomi/jasmine_sprout-twrp/Android.mk
 
 # TWRP Support
 ifeq ($(BUILD_TWRP),true)
