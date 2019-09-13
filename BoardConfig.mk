@@ -51,6 +51,7 @@ VENDOR_SECURITY_PATCH := 2018-06-05
 # WLAN MAC
 WLAN_MAC_SYMLINK := true
 
+TARGET_PREBUILT_RECOVERY_RAMDISK := $(DEVICE_PATH)/ramdisk/ramdisk-recovery.img
 
 # TWRP Support
 ifeq ($(BUILD_TWRP),true)
